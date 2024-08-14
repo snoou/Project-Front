@@ -1,0 +1,71 @@
+.parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.parent h1 {
+    font-size: 50px;
+}
+
+.parent>p {
+    font-size: 20px;
+}
+
+.parent2 {
+    display: flex;
+}
+
+.child {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 1) 0px 1px 3px 0px, rgba(0, 0, 0, 1) 0px 1px 2px -1px;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+
+.child h2 {
+    margin: 10px;
+}
+
+.child p,
+.dolar-month,
+.parent p {
+    color: #9da2ab;
+}
+
+.dolar-head {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text samp {
+    margin-left: 5px;
+}
+
+.icon {
+    width: 20px;
+    color: aquamarine;
+    height: 20px;
+
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #2563eb;
+    width: 290px;
+    height: 42px;
+    border-radius: 8px;
+    margin: 30px 20px;
+    ;
+}
