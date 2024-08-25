@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+
+}
+
+.maxHeader {
+    max-width: 450px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    height: 30px;
+
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    margin-bottom: 210px;
+
+}
+
+.box-one,
+.box-two {
+    width: 500px;
+    margin: 0 150px;
+}
+
+.lego {
+    margin-bottom: 200px;
+}
+
+.our {
+    width: 100%;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.our h5 {
+    font-weight: 10;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.our h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.our p,
+.linkf {
+    color: #999999;
+    font-size: 19px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.linkf {
+    color: #f1c50e;
+}
+
+.button {
+    margin-top: 55px
+}
+
+.but {
+    background-color: #f1c50e;
+    padding: 15px 60px 15px 60px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.but:hover {
+    background-color: #f8d95f;
+}
+
+
+.lego svg {
+    fill: #f1c50e;
+    width: 250px;
+    height: 250px;
+}
+
+.infor {
+    display: flex;
+    margin: 0 200px;
+    margin-bottom: 210px;
+}
+
+.box {
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+
+.img {
+    vertical-align: middle;
+    height: 80px;
+}
+
+.blackgrund {
+    background-color: #f2f2f2;
+    padding: 0 25px 0 30px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.item {
+    width: 500px;
+    height: 380px;
+}
+
+.infor h2 {
+    font-size: 33px;
+}
+
+
+.spansr {
+    height: 300px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.spansr img {
+    height: 70px;
+    margin: 0 70px;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.box-input-one {
+    width: 550px;
+    margin-right: 190px;
+}
+
+.box-input-one h1 {
+    font-size: 50px;
+}
+
+.box-input-one input {
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 10px;
+}
+
+.bout {
+    padding: 15px 30px;
+    background-color: #f1c50e;
+    border: none;
+
+    margin: 20px 0;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.box-input-two {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+    font-size: 20px;
+
+
+}
+
+.box-input-two img {
+
+    height: 40px;
+}
+
+.end {
+    height: 240px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.end p {
+    margin: 50px 0;
+    font-size: 17px;
+}
+
+.p2 {
+    font-size: 14px;
+}
